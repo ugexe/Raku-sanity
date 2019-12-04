@@ -1,0 +1,16 @@
+use Test;
+use sanity;
+
+
+subtest 'base' => {
+	throws-like { 42.base("beer");  }, Exception;
+	throws-like { 42.base("camel"); }, Exception;
+}
+
+subtest 'parse-base' => {
+	throws-like { "🍻🍺🍻🍺🍻🍺".parse-base("beer");  }, Exception;
+	throws-like { "🐫🐪🐫🐪🐫🐪".parse-base("camel"); }, Exception;
+}
+
+
+done-testing();

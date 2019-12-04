@@ -1,0 +1,28 @@
+{
+    "meta-version"  : "0",
+    "perl"          : "6.c",
+    "name"          : "Sanity",
+    "api"           : "0",
+    "version"       : "0.0.1",
+    "auth"          : "github:ugexe",
+    "description"   : "Adds some sane defaults for your production Raku programs",
+    "license"       : "Artistic-2.0",
+    "build-depends" : [ ],
+    "test-depends"  : [ "Test" ],
+    "depends"       : [ ],
+    "provides"      : {
+        "sanity" : "lib/sanity.rakumod"
+    },
+    "authors" : [
+        "Nick Logan"
+    ],
+    "support" : {
+        "bugtracker" : "https://github.com/ugexe/Raku-sanity/issues",
+        "source"     : "https://github.com/ugexe/Raku-sanity.git"
+    },
+    "tags"        : [
+        "strict",
+        "warnings",
+        "sanity"
+    ]
+}
