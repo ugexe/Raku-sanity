@@ -1,3 +1,0 @@
-*.raku text linguist-language=Perl6 diff=perl6
-*.rakumod text linguist-language=Perl6 diff=perl6
-*.rakutest text linguist-language=Perl6 diff=perl6
