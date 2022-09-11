@@ -2,7 +2,7 @@
     "meta-version"  : "0",
     "name"          : "Sanity",
     "api"           : "0",
-    "version"       : "0.0.1",
+    "version"       : "0.0.2",
     "auth"          : "github:ugexe",
     "description"   : "Adds some sane defaults for your production Raku programs",
     "license"       : "Artistic-2.0",
