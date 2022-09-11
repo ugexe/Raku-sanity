@@ -7,7 +7,7 @@
     "description"   : "Adds some sane defaults for your production Raku programs",
     "license"       : "Artistic-2.0",
     "build-depends" : [ ],
-    "test-depends"  : [ "Test" ],
+    "test-depends"  : [ "Test:ver<6.c+>" ],
     "depends"       : [ ],
     "provides"      : {
         "sanity" : "lib/sanity.rakumod"
