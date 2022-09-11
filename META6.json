@@ -1,6 +1,5 @@
 {
     "meta-version"  : "0",
-    "perl"          : "6.c",
     "name"          : "Sanity",
     "api"           : "0",
     "version"       : "0.0.1",
